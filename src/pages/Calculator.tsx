@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Car, Zap, Plane, Utensils, Users, ArrowRight, ArrowLeft, Send } from 'lucide-react';
-import { CarbonData, calculateFootprint } from '../utils/calculations';
+import { Car, Zap, Plane, ArrowRight, ArrowLeft, Send } from 'lucide-react';
+import { type CarbonData, calculateFootprint } from '../utils/calculations';
 import { saveReport } from '../utils/storage';
 
 const Calculator: React.FC = () => {

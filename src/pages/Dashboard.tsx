@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip as ReTooltip, BarChart, Bar, XAxis, YAxis } from 'recharts';
+import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip as ReTooltip } from 'recharts';
 import { ShieldCheck, Target, Lightbulb, TrendingDown, Download, RefreshCcw } from 'lucide-react';
 import { analyzeCarbonFootprint } from '../utils/gemini';
 import confetti from 'canvas-confetti';
